@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+  }
+  th.mat-header-cell {  
+    background: #368BC1;
+    color: #E5E4E2;
+    font-size: .85rem;
+  }
+  
+  th {   
+     background: #368BC1;
+     color: #E5E4E2;
+     font-size: .85rem;
+   }
+  
+   tr.detail-row {
+    height: 0;
+  }
+  
+  tr.element-row:not(.expanded-row):hover {
+    background: whitesmoke; 
+  }
+  
+  tr.element-row:not(.expanded-row):active {
+    background: #efefef; 
+  }
+  
+  .element-row td {
+    border-bottom-width: 0;
+  }
+  
+  .element-detail {
+    overflow: hidden;   
+    align-items: center;
+    justify-content: center;  
+    background-color: #9FE2BF;
+    box-shadow: inset 2px 3px 8px #c1c1c1;
+    border-radius: 10px;
+  }
+  
+  
